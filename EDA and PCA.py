@@ -15,7 +15,7 @@ from sklearn.preprocessing import StandardScaler
 
 
 #read in the cleaned dataset
-input_path = r"C:\Users\oisin\OneDrive\Desktop\5th Year-Masters\Machine Learning\Project Work\cleaned_dataset.xlsx"
+input_path = r"recommendation-system/data/processed/cleaned_dataset.xlsx"
 df = pd.read_excel(input_path)
 
 #create a pivot table to compare average positive and negative scores in each category
